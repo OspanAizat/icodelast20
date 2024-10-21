@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(131, 170, 202);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    width: 900px;
+    height: 860px;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.box1{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 350px 50px 50px;
+    gap: 2rem;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+button{
+    margin-left: 20px;
+}
+
+.btn1{
+    border-radius: 30px;
+    background-color: white;
+    width: 80px;
+    height: 32px;
+    border: 1px solid black;
+}
+.btn2{
+    border-radius: 30px;
+    background-color: rgb(144, 73, 166);
+    color: white;
+    width: 100px;
+    height: 32px;
+}
+.box2{
+    display: flex;
+    gap: 3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bigbox{
+    display: grid;
+    grid-template-columns: 60% 30%;
+}
+.img{
+    width: 400px;
+}
+.personcircle{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.box22{
+    width: 150px;
+    
+}
+.person{
+    color: rgb(68, 67, 67);
+    margin-left: 60px;
+    margin-top: -45px;
+}
+.boxes2{
+    margin-left: 160px;
+    margin-top: -100px;
+}
